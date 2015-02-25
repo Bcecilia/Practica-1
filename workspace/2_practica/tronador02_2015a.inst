@@ -1,0 +1,18 @@
+Linea     Etiqueta	Codop    Operando	Modos de direccionamiento
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  3	null	INCA	null	INH
+  4	E2	LDAA	%11	IMM, DIR, EXT, IDX, IDX1, IDX2, [D,IDX], [IDX2]
+  5	null	JMP	,PC	EXT, IDX, IDX1, IDX2, [D,IDX], [IDX2]
+  6	E3	CLRA	null	INH
+  9	null	ANDA	[20]	IMM, DIR, EXT, IDX, IDX1, IDX2, [D,IDX], [IDX2]
+  10	null	BRSET	@15	DIR, EXT, IDX, IDX1, IDX2
+  11	e4	LDAA	12	IMM, DIR, EXT, IDX, IDX1, IDX2, [D,IDX], [IDX2]
+  12	null	CLR	10	EXT, IDX, IDX1, IDX2, [D,IDX], [IDX2]
+  13	null	BLO	1000	REL8
+  14	null	LBLO	0	REL16
+  15	null	cLc	null	IMM
+  16	null	lbgt	1	REL16
+  17	m1	mul	null	INH
+  19	null	tfr	usa	INH
+  22	null	ASRB	null	INH
+  26	null	eTbL	x	IDX
